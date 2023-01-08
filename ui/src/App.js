@@ -3,8 +3,7 @@ import SoftwareList from './Components/SoftwareList/SoftwareList';
 import ReactGA from 'react-ga';
 
 function App() {
-  const TRACKING_ID = "UA-XXXXX-X"; // OUR_TRACKING_ID
-  ReactGA.initialize(TRACKING_ID);
+  ReactGA.initialize("G-2YP1NVMREV");
 
   return (
     <>
