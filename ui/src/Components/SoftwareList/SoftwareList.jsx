@@ -4,6 +4,7 @@ import { DataGrid } from '@mui/x-data-grid';
 const SoftwareList = () => {
     const [softwareItems, setSoftwareItems] = useState();
     const [loadingItems, setLoadingItems] = useState(true);
+    const getBasename = path => path.substr(0, path.lastIndexOf('/'));
 
     useEffect(() => {
         async function fetchData() {
@@ -16,7 +17,7 @@ const SoftwareList = () => {
                 }
             };
 
-            await fetch(`/api/size-data.json`, reqParams)
+            await fetch(`${getBasename(window.location.pathname)}/api/size-data.json`, reqParams)
                 .then((res) => {
                     if (res.ok) {
                         return res.json();
