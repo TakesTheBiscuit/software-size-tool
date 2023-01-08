@@ -1,10 +1,14 @@
 import { Box, Grid, Typography } from '@mui/material';
 import SoftwareList from './Components/SoftwareList/SoftwareList';
 import ReactGA from 'react-ga';
+import { useEffect } from 'react';
 
 function App() {
-  ReactGA.initialize("G-2YP1NVMREV");
 
+  ReactGA.initialize("G-2YP1NVMREV");
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <>
       <Grid container spacing={2} justifyContent="center" sx={{ my: 5 }}>

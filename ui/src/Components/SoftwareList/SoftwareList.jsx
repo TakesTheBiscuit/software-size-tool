@@ -13,7 +13,8 @@ const SoftwareList = () => {
                 headers: {
                     'Content-Type': 'application/json',
                     'X-Requested-With': 'XMLHttpRequest',
-                    'Accept': 'application/json'
+                    'Accept': 'application/json',
+                    'cache': 'no-store'
                 }
             };
 
