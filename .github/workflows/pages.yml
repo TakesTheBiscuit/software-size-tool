@@ -39,11 +39,14 @@ jobs:
     steps:
       - name: Setup Pages
         uses: actions/configure-pages@v2
+      - name: List file structure
+        run: |
+          ls
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './ui/build/'
+          path: './build/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
