@@ -1,14 +1,7 @@
 import { Box, Grid, Typography } from '@mui/material';
 import SoftwareList from './Components/SoftwareList/SoftwareList';
-import ReactGA from "react-ga4";
-import { useEffect } from 'react';
 
 function App() {
-
-  useEffect(() => {
-    ReactGA.initialize("G-2YP1NVMREV");
-    ReactGA.send("pageview");
-  }, []);
   return (
     <>
       <Grid container spacing={2} justifyContent="center" sx={{ my: 5 }}>
