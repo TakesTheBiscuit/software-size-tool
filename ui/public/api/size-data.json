@@ -7,7 +7,72 @@
             "download_in_gb": 39.20,
             "install_in_gb": 50.81,
             "categories": [
-                "game"
+                "games"
+            ],
+            "tags": [
+                "wwz"
+            ],
+            "platform": "WINDOWS 10",
+            "last_updated": "2023-01-08",
+            "created_by": "TakesTheBiscuit",
+            "verified_by": [
+                "TakesTheBiscuit"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Forged Alliance Forever",
+            "launcher": "",
+            "download_in_gb": 0.181,
+            "install_in_gb": 0.293,
+            "categories": [
+                "mods"
+            ],
+            "tags": [
+                "faf",
+                "rts",
+                "mods"
+            ],
+            "platform": "WINDOWS 10",
+            "last_updated": "2023-01-08",
+            "created_by": "TakesTheBiscuit",
+            "verified_by": [
+                "TakesTheBiscuit"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Mindustry",
+            "launcher": "Steam",
+            "download_in_gb": 0.0789,
+            "install_in_gb": 0.120,
+            "categories": [
+                "games"
+            ],
+            "tags": [
+                "factory",
+                "base building"
+            ],
+            "platform": "WINDOWS 10",
+            "last_updated": "2023-01-08",
+            "created_by": "TakesTheBiscuit",
+            "verified_by": [
+                "TakesTheBiscuit"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "GTA V",
+            "launcher": "Steam",
+            "download_in_gb": 105.60,
+            "install_in_gb": 108.50,
+            "categories": [
+                "games"
+            ],
+            "tags": [
+                "open world",
+                "fps",
+                "rpg"
             ],
             "platform": "WINDOWS 10",
             "last_updated": "2023-01-08",
