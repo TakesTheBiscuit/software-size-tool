@@ -1,13 +1,13 @@
 import { Box, Grid, Typography } from '@mui/material';
 import SoftwareList from './Components/SoftwareList/SoftwareList';
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 import { useEffect } from 'react';
 
 function App() {
 
-  ReactGA.initialize("G-2YP1NVMREV");
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.initialize("G-2YP1NVMREV");
+    ReactGA.send("pageview");
   }, []);
   return (
     <>
