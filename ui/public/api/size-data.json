@@ -1,0 +1,20 @@
+{
+    "library": [
+        {
+            "id": 1,
+            "name": "World War Z - GOTY Edition",
+            "launcher": "EPIC GAMES",
+            "download_in_gb": 39.20,
+            "install_in_gb": 50.81,
+            "categories": [
+                "game"
+            ],
+            "platform": "WINDOWS 10",
+            "last_updated": "2023-01-08",
+            "created_by": "TakesTheBiscuit",
+            "verified_by": [
+                "TakesTheBiscuit"
+            ]
+        }
+    ]
+}
