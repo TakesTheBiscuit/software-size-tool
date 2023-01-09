@@ -8,7 +8,7 @@ const SoftwareList = () => {
 
     const [sortModel, setSortModel] = useState([
         {
-            field: 'download_in_gb',
+            field: 'install_in_gb',
             sort: 'desc',
         },
     ]);
