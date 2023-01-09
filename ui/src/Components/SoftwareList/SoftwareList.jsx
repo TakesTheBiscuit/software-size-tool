@@ -6,6 +6,13 @@ const SoftwareList = () => {
     const [loadingItems, setLoadingItems] = useState(true);
     const getBasename = path => path.substr(0, path.lastIndexOf('/'));
 
+    const [sortModel, setSortModel] = useState([
+        {
+            field: 'download_in_gb',
+            sort: 'desc',
+        },
+    ]);
+
     useEffect(() => {
         async function fetchData() {
             const reqParams = {
@@ -67,6 +74,8 @@ const SoftwareList = () => {
                         rows={softwareItems}
                         columns={columns}
                         pageSize={25}
+                        sortModel={sortModel}
+                        onSortModelChange={(model) => setSortModel(model)}
                     />
 
                 </div>
