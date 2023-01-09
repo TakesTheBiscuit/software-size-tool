@@ -80,6 +80,47 @@
             "verified_by": [
                 "TakesTheBiscuit"
             ]
+        },
+        {
+            "id": 5,
+            "name": "Rockstar Games Launcher",
+            "launcher": "",
+            "download_in_gb": 0.234,
+            "install_in_gb": 0.234,
+            "categories": [
+                "software"
+            ],
+            "tags": [
+                "rockstar",
+                "gta",
+                "launcher"
+            ],
+            "platform": "WINDOWS 10",
+            "last_updated": "2023-01-09",
+            "created_by": "TakesTheBiscuit",
+            "verified_by": [
+                "TakesTheBiscuit"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Risk of Rain 2",
+            "launcher": "Steam",
+            "download_in_gb": 1.60,
+            "install_in_gb": 2.09,
+            "categories": [
+                "games"
+            ],
+            "tags": [
+                "dungeon",
+                "ror"
+            ],
+            "platform": "WINDOWS 10",
+            "last_updated": "2023-01-09",
+            "created_by": "TakesTheBiscuit",
+            "verified_by": [
+                "TakesTheBiscuit"
+            ]
         }
     ]
 }
